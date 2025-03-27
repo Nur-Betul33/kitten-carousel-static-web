@@ -6,7 +6,7 @@ systemctl start httpd
 systemctl enable httpd
 cd /var/www/html
 
-FOLDER="https://raw.githubusercontent.com/Nur-Betul33/101-kittens-carousel-static-website-ec2/refs/heads/main/static-web"
+FOLDER="https://raw.githubusercontent.com/Nur-Betul33/kitten-carousel-static-web/refs/heads/main/static-web"
 wget ${FOLDER}/index.html
 wget ${FOLDER}/cat0.jpg
 wget ${FOLDER}/cat2.jpg
